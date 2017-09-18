@@ -9,9 +9,7 @@
 //System.out.println(urlsFromHandles(Arrays.asList("ghhandle1", "ghhandle2")));
 import java.util.ArrayList;
 import java.util.Arrays;
-
 public class UrlsFromHandles {
-
 	public static void main(String[] args){
 	    String greenfox = "https://github.com/greenfox-academy/";
         ArrayList<String> handles = new ArrayList<String>();
