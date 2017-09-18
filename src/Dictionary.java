@@ -1,8 +1,11 @@
-public class Dictionary{
-	/*static Map<String,String> map;
+import java.util.HashMap;
+import java.util.Map;
+
+public class Dictionary {
+	static Map<String,String> map;
 
 	public static void main(String[] args) {
-		map = new HashMap<String,String>();   
+		map = new HashMap<String,String>();
 		map.put("alma", "apple");  
    		map.put("fa", "tree");  
 	}
@@ -24,5 +27,5 @@ public class Dictionary{
 
   	public static String translateToEng(String hunWord) {
 		return null;
-  	}*/
+  	}
 }

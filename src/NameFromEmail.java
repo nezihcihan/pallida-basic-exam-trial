@@ -33,9 +33,9 @@ public class NameFromEmail {
                 lastName = fullName.substring(j + 1);
             }
         }
-        System.out.print(firstName.toUpperCase() + " " + lastName.toUpperCase());
+        System.out.print((firstName.toUpperCase() + firstName.substring(1)) + " " + lastName.toUpperCase());
     }
-    
+
     /** Method for user input **/
     public static String userInputEmail(){
         System.out.println("Enter your email");

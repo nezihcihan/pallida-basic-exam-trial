@@ -33,4 +33,8 @@ The application is accepted if:
 
 ###  What is the difference between id and class in CSS? [2p]
 #### Your answer: 
+The biggest difference is  a document can have multiple elements with the same class, 
+but not with the same ID. An Identifier must be specific to a certain element within a document.
+We use a class when we want to consistently style multiple elements throughout the page/site.
+We use the ID when we have a single element on the page that will take the style.
 [add your answer here]
